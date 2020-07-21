@@ -1,0 +1,8 @@
+
+
+{% for object in object_list %}
+    <a href="/up/{{object.pk}}"> {{ object.content }} ({{object.view_counter}} viewed)
+    </a>
+    <br>
+
+{% endfor %}
